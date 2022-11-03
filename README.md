@@ -1,9 +1,20 @@
-# NLP
+# Project 23. Personality trait
 Course work for University of Oulu's Natural Language Processing course
 
-## Project 23. Personality trait 
-This project aims to explore the distribution of selected keywords in historical corpuses to provide insights in terms of their temporal dynamic with respect to their contextual meaning.
-Consider the popular Harry potter movie whose dataset is available in Harry Potter Dataset | Kaggle, indicating the content of the three movie distinguishing the script of each character of the movies. You may also find in Kaggle some code for data handling and visualization.
+## Instructions and requirements
+The tasks are provided as .ipynb-files: please see the files tasks_tool1.ipynb, tasks_tool2.ipynb and tasks_tool3.ipynb for the tasks performed with the tools 1, 2 and 3, respectively. For more details, please see the report.
+
+To run the scripts, the following libraries are required:
+* pandas
+* contractions
+* nltk
+* scikit-learn
+* numpy
+* plotly.
+
+**Important note:** For tasks_tool1.ipynb and tasks_tool2.ipynb, the version 0.20.1 of scikit-learn should be used. However, for tasks_tool3.ipynb, the version 0.22.1 is required.
+
+## Specification
 
 ### 1
 Write a script that gathers and concatenates the scripts corresponding to each character to make up a separate corpus for each character, and determine the characteristics of each corpus in terms of number of tokens, size of vocabulary, average length of individual script, standard deviation of script length, proportion of stopwords employed. Provide the results in a table to visualize the discrepancy among the various characters. 
