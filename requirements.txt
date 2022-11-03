@@ -1,6 +1,0 @@
-pandas
-contractions
-nltk
-sklearn
-numpy
-plotly
